@@ -15,7 +15,13 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each do |winner|
+  n = 0 
+  WIN_COMBINATIONS.each do |win_index|
+    win_index
+    
+    
+  
+  .each do |winner|
     if winner == ["X", "X", "X"] || winner == ["O", "O", "O"]
       return winner 
     else
