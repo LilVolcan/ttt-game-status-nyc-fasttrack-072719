@@ -17,23 +17,10 @@ WIN_COMBINATIONS = [
 def won?(board)
   
   
-  
   if board[0] = "X" && board[1] == "X" && board[2] == "X"
     return win_combination
   elsif board[0] = "O" && board[1] == "O" && board[2] == "O"
     return false 
     
-      
-    win_index = win_combination[0]
-    position = board[win_index]
-    
-    
-  
-  
-    if winner == ["X", "X", "X"] || winner == ["O", "O", "O"]
-      return winner 
-    else
-      false
-    end 
   end
 end     
