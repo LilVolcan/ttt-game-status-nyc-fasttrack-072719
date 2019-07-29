@@ -19,7 +19,7 @@ def won?(board)
     if winner == ["X", "X", "X"] || x == ["O", "O", "O"]
       return winner 
     else
-      false 
+      falsey 
     end 
   end
 end     
