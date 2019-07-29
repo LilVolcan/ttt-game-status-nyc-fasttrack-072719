@@ -15,7 +15,8 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  win_index_1 = WIN_COMBINATIONS[0]
+  
+  
   
   if board[0] = "X" && board[1] == "X" && board[2] == "X"
     return win_combination
