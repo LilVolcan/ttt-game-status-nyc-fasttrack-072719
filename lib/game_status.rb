@@ -16,10 +16,10 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |winner|
-    if winner == ["X", "X", "X"] || x == ["O", "O", "O"]
+    if winner == ["X", "X", "X"] || winner == ["O", "O", "O"]
       return winner 
     else
-      falsey 
+      false
     end 
   end
 end     
