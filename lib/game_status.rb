@@ -15,12 +15,12 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
+  WIN_COMBINATIONS.each do 
   
-  
-  if board[0] = "X" && board[1] == "X" && board[2] == "X"
-    return win_combination
-  elsif board[0] = "O" && board[1] == "O" && board[2] == "O"
-    return false 
-    
+    if board[0] = "X" && board[1] == "X" && board[2] == "X"
+      return win_combination
+    elsif board[0] = "O" && board[1] == "O" && board[2] == "O"
+      return false 
+    end
   end
 end     
