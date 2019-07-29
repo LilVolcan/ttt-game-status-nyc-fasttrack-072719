@@ -16,8 +16,8 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   n = 0 
-  WIN_COMBINATIONS.each do |win_index|
-    win_index
+  WIN_COMBINATIONS.each do |xxx|
+    win_index_#[n] = WIN_COMBINATIONS[0]
     
     
   
